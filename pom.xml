@@ -6,7 +6,7 @@
 	<groupId>com.dashboard</groupId>
 	<artifactId>AdminDashboard</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>AdminDashboard</name>
 	<description>Project for Spring Boot admin dashboard</description>
