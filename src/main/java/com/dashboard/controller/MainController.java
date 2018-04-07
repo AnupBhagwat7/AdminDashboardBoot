@@ -98,7 +98,7 @@ public class MainController {/*
 		
 		logger.debug("Loading dashboard page");
 		return "/user/homepage";
-	}
+	}*/
 		
 	@RequestMapping(value="/forgotPassword", method = RequestMethod.GET)
 	public String forgotPassword()
@@ -106,7 +106,7 @@ public class MainController {/*
 		return "forgotPassword"; 
 	}
 	
-	@RequestMapping(value="/resetPassword" , method=RequestMethod.POST)
+	/*@RequestMapping(value="/resetPassword" , method=RequestMethod.POST)
 	public String resetRequest(@RequestParam(value="email") String email)
 	{
 		//check if the email id is valid and registered with us.

@@ -30,7 +30,7 @@
 
 <div class="container">
 
-    <form method="POST" action="${contextPath}/admin/dashboard" class="form-signin">
+    <form method="POST" action="/dashboard" class="form-signin">
         <h2 class="form-heading">Log in</h2>
 
         <div class="form-group ${error != null ? 'has-error' : ''}">
